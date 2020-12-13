@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Icon link -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- CSS link -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!-- Bootstrap link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Eden</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-sm-6 col-md-6 col-lg-4">
+                    <div class="social-link">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-skype"></i>
+                        <i class="fab fa-vimeo-v"></i>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-6 col-lg-4">
+                    <div class="logo">
+                        <h1>E<span>d</span>en<span>.</span></h1>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                    <div class="header-btn">
+                        <button class="search"><i class="fas fa-search"></i>Search</button>
+                        <button class="login"><i class="fas fa-arrow-right"></i>Login</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Search form -->
+        <div id="search-form">
+            <form>
+                <input type="text" placeholder="Search Here..">
+                <span class="search-close">&times;</span>
+            </form>
+        </div> 
+
+        <!-- Login form -->
+        
+        <div id="login-form">
+            <div>
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                            <div>
+                                <img src="images/login.png">
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                            <form name="login-form">
+                                <div class="form-group">
+                                    <label for="login-name">Username</label>
+                                    <input class="form-control form-control-lg" type="text" name="login-name" id="login-name" placeholder="Enter Username">   
+                                </div>
+                                <div class="form-group">
+                                    <label for="login-password">Password</label>
+                                    <input class="form-control form-control-lg" type="password" name="login-password" id="login-password" placeholder="Enter Password">    
+                                    <p id="password-text"></p>
+                                    <label class="form-check">
+                                       Show Password
+                                        <input type="checkbox" id="login-checkbox">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <button type="submit" class="login-btn">Login</button>
+                                <label class="form-check">
+                                    Remember me
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <button class="cancel-btn">Cancel</button>   
+                            </form>
+                        </div>
+                    </div> 
+                </div> 
+            </div>
+        </div>
+    </header>
+    <hr>
+    <!-- Navbar menu -->
+    <section>
+        <nav>
+            <div class="container">
+                <div class="menu-btn">
+                    <div class="hamburger-menu"></div>
+                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                    <li><a href="archive.html">Archive</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul> 
+            </div> 
+        </nav>
+    </section>
+
+      <!-- Breadcrumb -->
+      <section id="breadcrumb">
+        <div class="container">
+            <div>
+                <h1>
+                   Categories
+                </h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Categories</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories section -->
+    <section id="categories">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="##" class="active">all</a></li>
+                    <li><a href="##">web</a></li>
+                    <li><a href="##">desing</a></li>
+                    <li><a href="##">brand</a></li>
+                </ul>
+            </nav>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 categories-card" data-id="web">
+                    <div class="card">
+                        <img src="images/categories/categories1.jpg">
+                        <div class="card-img-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 categories-card" data-id="brand">
+                    <div class="card">
+                        <img src="images/categories/categories2.jpg">
+                        <div class="card-img-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 categories-card" data-id="web">
+                    <div class="card">
+                        <img src="images/categories/categories3.jpg">
+                        <div class="card-img-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 categories-card" data-id="desing">
+                    <div class="card">
+                        <img src="images/categories/categories4.jpg">
+                        <div class="card-img-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 categories-card" data-id="desing">
+                    <div class="card">
+                        <img src="images/categories/categories5.jpg">
+                        <div class="card-img-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 categories-card" datt-id="web">
+                    <div class="card">
+                        <img src="images/categories/categories6.jpg">
+                        <div class="card-img-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 categories-card" data-id="desing">
+                    <div class="card">
+                        <img src="images/categories/categories7.jpg">
+                        <div class="card-img-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 categories-card" data-id="brand">
+                    <div class="card">
+                        <img src="images/categories/categories8.jpg">
+                        <div class="card-img-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 categories-card" data-id="web">
+                    <div class="card">
+                        <img src="images/categories/categories9.jpg">
+                        <div class="card-img-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="img-gallery">
+            <span class="fas fa-times"></span>
+            <div class="container">
+                <div>
+                    <img src="">
+                </div>
+                <i class="fas fa-chevron-left"></i>
+                <i class="fas fa-chevron-right"></i>
+            </div>
+        </div>
+    </section>
+    
+    <hr>
+
+    <!-- Footer section -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                    <div>
+                        <h4>About us</h4>
+                        <p>Heaven fruitful doesn't over lesser days appear creeping seasons so behold bearing days open</p>
+                        <div class="logo">
+                            <h1>E<span>d</span>en<span>.</span></h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                    <div>
+                        <h4>Contact Info</h4>
+                        <p>Address :Your address goes here, your demo address.</p>
+                        <p>Phone : +8880 44338899</p>
+                        <p>Email : info@colorlib.com</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                    <div>
+                        <h4>Important Link</h4>
+                        <ul>
+                            <li><a href="#">WHMCS-bridge</a></li>
+                            <li><a href="#">Search Domain</a></li>
+                            <li><a href="#">My Account</a></li>
+                            <li><a href="#">Shopping Cart</a></li>
+                            <li><a href="#">Our Shop</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                    <div>
+                        <h4>Newsletter</h4>
+                        <p>Heaven fruitful doesn't over lesser in days. Appear creeping seasons deve behold bearing days open</p>
+                        <form>
+                            <input type="text" placeholder="Your Email Address">
+                            <button>SUBSCRIBE</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="footer-social-link">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-skype"></i>
+                <i class="fab fa-vimeo-v"></i>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    
+</body>
+</html>
